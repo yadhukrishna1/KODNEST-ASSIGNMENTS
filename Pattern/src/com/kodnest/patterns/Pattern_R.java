@@ -10,9 +10,7 @@ public static void main(String[] args) {
 			for(int j=0;j<=n;j++)
 			{
 		
-	if((j==0)||(i==0 )||(i<=n/2 && j==n)||(i==n/2 && j<=n)||
-			(j>n/2-4 && i==j) )
-					
+				if(i==0||j==0||i<=n/2 &&j==n||i==n/2 && j<=n ||i==j+n/2)
 					{
 				System.out.print("*");
 			}
